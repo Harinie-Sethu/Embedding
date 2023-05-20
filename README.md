@@ -4,7 +4,9 @@ word embedding algorithms, to learn meaningful vectors for words. The aim of the
 embeddings in such a way that words with similar meanings have similar mathematical representations.
 Word embeddings can be categorized into two broad categories: frequency-based and prediction-based.
 
-We implement a frequency-based embedding modelling approach - Singular Value Decomposition (SVD), and compare it with the embeddings obtained using one of the variants of Word2vec - CBOW implementation with Negative Sampling. The analysis will highlight the differences in the quality of embeddings obtained.
+We implement a frequency-based embedding modelling approach - Singular Value Decomposition (SVD), and compare it with the embeddings obtained using one of the variants of Word2vec - CBOW implementation with Negative Sampling. The analysis will highlight the differences in the quality of embeddings obtained.  
+
+Model was trained on: https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Movies_and_TV.json.gz
 
 # Implementation
 ## 1) SVD by building co-occurance matrix
